@@ -1,10 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Formularz</title>
 </head>
 <body>
+    <form action="https://formspree.io/mr.yarikua@gmail.com" method="post">
+        Imię:<br>
+        <input type="text" name="firstname"><br>
+        Nazwisko:<br>
+        <input type="text" name="lastname"><br>
+        Telefon: <br>
+        <input type="text" name="telefon"> <br>
+        Wybór miasta: <br>
+            <select name="miasta">
+                <option value="Krakow">Kraków</option>
+                <option value="Warszwa">Warszwa</option>
+                <option value="Gdansk">Gdańsk</option>
+            </select> <br>
+        Płeć: <br>
+            <input type="radio" name="plec" value="Męska"> Męska<br>
+            <input type="radio" name="plec" value="Żeńska"> Żeńska<br>
+            <input type="radio" name="plec" value="Inna"> Inna<br>
+        Zgoda na dane osobowe: <br>
+            <input type="checkbox" name="vehicle1" value="Tak">Zgadzam się<br>
+            <input type="checkbox" name="vehicle2" value="Nie">Nie zgadzam się<br>
+        Wiadomość: <br>
+           <textarea name="wiadomosc" rows="10" cols="22"></textarea> <br>
+        <input type="submit" value="Wyślij">   
+    </form>
+    
     
 </body>
 </html>
