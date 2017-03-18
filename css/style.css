@@ -1,0 +1,49 @@
+*{
+    background-color: #213b50;
+    color: white;
+    margin: 5px;
+}
+input{
+    background-color: #2b4a64;
+    border: 0;
+}
+input[type="text"]{
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+}
+select {
+    background-color: #2b4a64;
+    margin: 5px;
+    width: 31%;
+    padding: 5px;
+    border: 0;
+}
+select:focus{
+     background-color: #4e708c;
+}
+input[type="radio"][type="submit"]{
+    margin: 3px;
+    background-color: green;
+    padding: 10px;
+    border: 0px;  
+}
+input[type="submit"]:hover{
+    background-color: red;
+}
+input[type="submit"]{
+    background-color: green;
+    padding: 10px;
+}
+input:focus{
+    background-color: #4e708c;
+    border: solid 1px white;
+}
+textarea:focus{
+    background-color: #4e708c;   
+}
+textarea {
+    background-color: #2b4a64;
+    width: 30%;
+    border: 0;
+}
